@@ -1,0 +1,6 @@
+objcopy.exe --update-section ER_IROM1="d:\项目文件\香港地铁\HK_Metro新旧硬件通用版本\实验42 FATFS实验\USER\build\FATFS\USER.bin" "d:\项目文件\香港地铁\HK_Metro新旧硬件通用版本\实验42 FATFS实验\USER\build\FATFS\USER.axf" "d:\项目文件\香港地铁\HK_Metro新旧硬件通用版本\实验42 FATFS实验\USER\build\FATFS\USER.elf"
+
+objcopy.exe: d:\项目文件\香港地铁\HK_Metro新旧硬件通用版本\实验42 FATFS实验\USER\build\FATFS\USER.elf: warning: allocated section `RW_IRAM1' not in segment
+
+WARNING: The runtime version supported by this application is unavailable.
+Using default runtime: v4.0.30319

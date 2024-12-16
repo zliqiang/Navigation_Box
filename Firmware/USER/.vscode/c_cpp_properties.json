@@ -1,0 +1,61 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}\\..\\CORE",
+                "${workspaceFolder}\\..\\OBJ",
+                "${workspaceFolder}\\.",
+                "${workspaceFolder}\\..\\HALLIB\\STM32F7xx_HAL_Driver\\Inc",
+                "${workspaceFolder}\\..\\SYSTEM\\delay",
+                "${workspaceFolder}\\..\\SYSTEM\\sys",
+                "${workspaceFolder}\\..\\SYSTEM\\usart",
+                "${workspaceFolder}\\..\\HARDWARE\\LCD",
+                "${workspaceFolder}\\..\\HARDWARE\\SDRAM",
+                "${workspaceFolder}\\..\\HARDWARE\\IIC",
+                "${workspaceFolder}\\..\\HARDWARE\\24CXX",
+                "${workspaceFolder}\\..\\HARDWARE\\SDMMC",
+                "${workspaceFolder}\\..\\HARDWARE\\NAND",
+                "${workspaceFolder}\\..\\HARDWARE\\QSPI",
+                "${workspaceFolder}\\..\\HARDWARE\\W25QXX",
+                "${workspaceFolder}\\..\\HARDWARE\\MPU",
+                "${workspaceFolder}\\..\\MALLOC",
+                "${workspaceFolder}\\..\\FATFS\\exfuns",
+                "${workspaceFolder}\\..\\FATFS\\src",
+                "${workspaceFolder}\\..\\HARDWARE\\TIMER",
+                "${workspaceFolder}\\..\\GUI",
+                "${workspaceFolder}\\..\\GUI\\lvgl",
+                "${workspaceFolder}\\..\\GUI\\lvgl_driver",
+                "${workspaceFolder}\\..\\GUI\\lv_examples",
+                "${workspaceFolder}\\..\\GUI_APP",
+                "${workspaceFolder}\\..\\HARDWARE\\TOUCH",
+                "${workspaceFolder}\\..\\Navigation\\CALCULATE",
+                "${workspaceFolder}\\..\\Navigation\\GNSS",
+                "${workspaceFolder}\\..\\Navigation\\IMU",
+                "${workspaceFolder}\\..\\Navigation\\PRESSURE",
+                "${workspaceFolder}\\..\\HARDWARE\\GPIO",
+                "${workspaceFolder}\\..\\GUI\\lv_examples\\lv_apps\\demo",
+                "${workspaceFolder}\\..\\GUI\\lv_examples\\lv_tests\\lv_test_theme",
+                "${workspaceFolder}\\.eide\\deps",
+                "${workspaceFolder}\\..\\..\\..\\..\\..\\Keil_v5\\ARM\\ARMCC\\include",
+                "${workspaceFolder}\\..\\..\\..\\..\\..\\Keil_v5\\ARM\\ARMCC\\include\\rw"
+            ],
+            "defines": [
+                "${default}",
+                "__VSCODE_CPPTOOL",
+                "STM32F767xx",
+                "USE_HAL_DRIVER"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}"
+            },
+            "forcedInclude": [
+                "c:\\Users\\zliqiang\\.vscode\\extensions\\cl.eide-2.14.0\\bin\\include\\internal_headers\\armcc_intr.h"
+            ]
+        }
+    ],
+    "version": 4
+}
